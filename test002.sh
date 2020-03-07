@@ -9,7 +9,7 @@ CONFIG_DIR="/Users/admin/Documents/config"
 TMP_DIR="/Users/admin/Documents/tmp"	
 TAR_DIR="/Users/admin/Documents/tar"	
 usage(){	
-    echo $"Usage: $0 [ deploy | rollback ]"	
+    echo  $"Usage: $0 [ deploy | rollback ]"	
 }	
 code_get(){	
     echo code_get	
