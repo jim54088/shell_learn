@@ -12,7 +12,7 @@ TMP_DIR="/Users/admin/Documents/tmp"
 TAR_DIR="/Users/admin/Documents/tar"
 
 usage(){
-    echo $"usage: $0 [ deploy | rollback ]"
+    echo $"Usage: $0 [ deploy | rollback ]"
 }
 
 code_get(){
@@ -35,7 +35,7 @@ code_scp(){
     echo code_scp
 }
 
-cluseter_node_remove(){
+cluster_node_remove(){
     echo cluseter_node_remove
 }
 
@@ -43,7 +43,7 @@ code_deploy(){
     echo code_deploy
 }
 config_diff(){
-    echo conig_diff
+    echo config_diff
 }
 
 code_test(){
@@ -58,7 +58,7 @@ rollback(){
 }
 
 main(){
-    case $1 in 
+    case $1 in
     deploy)
            code_get;
            code_build;
